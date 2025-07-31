@@ -1,0 +1,41 @@
+.bottom-nav {
+  position: absolute; /* important: absolute to container */
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+
+
+}
+
+.nav-item {
+  text-align: center;
+  flex: 1;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.nav-item.active {
+  color: #007bff;
+}
+
+.nav-item span {
+  display: block;
+  font-size: 20px;
+}
+
+.active-indicator {
+  position: absolute;
+  bottom: 6px;
+  width: 6px;
+  height: 6px;
+  background: #007bff;
+  border-radius: 50%;
+  transition: left 0.3s ease;
+  transform: translateX(-50%);
+}

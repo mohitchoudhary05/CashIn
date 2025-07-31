@@ -1,0 +1,17 @@
+/* Set up background and center the app */
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+/* Limit app width to mobile size */
+.mobile-container {
+  width: 375px;
+  min-height: 100vh;
+  background: white;
+  position: relative;
+}
